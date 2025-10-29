@@ -1,6 +1,5 @@
 "use client"
 
-import React from "react"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { HeroHeader } from "@/components/header"
@@ -56,18 +55,17 @@ const HeroSection = () => (
     <HeroHeader />
     <main className="overflow-x-hidden">
       <section>
-        <div className="py-24 md:pb-32 lg:pb-36 lg:pt-72">
+        <div className="py-24 md:pb-16 lg:pb-20 lg:pt-72">
           <div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
-              <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/70 backdrop-blur">
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs text-white/70 backdrop-blur">
                 Presbo AI on Whop
               </div>
               <h1 className="mt-8 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl">
-                Create 10x Faster with Presbo AI
+                Create 10x Faster with <span className="text-[#D13E08]">Presbo AI</span>
               </h1>
               <p className="mt-8 max-w-2xl text-balance text-lg text-muted-foreground">
-                Transform scripts into narrated, visually rich lessons in minutes. Automate video
-                creation, stay on-brand, and publish to your Whop community with zero editing.
+                Supercharge your Whop community & boost engagement.
               </p>
 
               <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">

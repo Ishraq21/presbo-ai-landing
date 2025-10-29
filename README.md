@@ -1,6 +1,6 @@
 # Presbo AI Landing Page
 
-Presbo AI turns any script, lesson, or outline into a narrated and visually rich explainer videos in minutes. This repository contains the public-facing marketing site that explains the product, highlights the Whop-integrated subscription model, and funnels creators into the Presbo AI platform.
+Presbo AI turns any script, notes, or outline into a narrated and visually rich explainer videos in minutes. This repository contains the public-facing marketing site that explains the product, highlights the Whop-integrated subscription model, and funnels creators into the Presbo AI platform.
 
 ## Key Messaging
 
