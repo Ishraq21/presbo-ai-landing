@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js
+.next
+out
+next-env.d.ts
+
+# Testing
+coverage
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Environment variables
+.env*
+!.env.example
+
+# MacOS
+.DS_Store

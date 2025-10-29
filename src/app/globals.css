@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 20% 4%;
+  --foreground: 220 20% 97%;
+  --muted: 220 13% 13%;
+  --muted-foreground: 220 15% 70%;
+  --accent: 17 92% 43%;
+  --accent-foreground: 220 20% 100%;
+  --radius: 0.75rem;
+}
+
+.light {
+  --background: 220 20% 98%;
+  --foreground: 220 20% 10%;
+  --muted: 220 20% 94%;
+  --muted-foreground: 220 10% 35%;
+  --accent: 17 92% 43%;
+  --accent-foreground: 0 0% 100%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
