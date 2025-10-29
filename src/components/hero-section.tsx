@@ -17,10 +17,10 @@ const HeroSection = () => (
                 Presbo AI on Whop
               </div>
               <h1 className="mt-8 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl">
-                Create 10x Faster with <span className="text-[#D13E08]">Presbo AI</span>
+                Create 10x Faster with <span className="text-[#D13E08]">Presbo AI.</span> More Engagement. More Revenue.
               </h1>
               <p className="mt-8 max-w-2xl text-balance text-lg text-muted-foreground">
-                Supercharge your <span className="text-[#D13E08]">Whop</span> community & boost engagement.
+                Transform text, notes, and scripts into stunning explainer videos and podcasts for your <span className="text-[#D13E08]">Whop</span> community with AI.
               </p>
 
               <div className="mt-12 max-w-2xl flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -30,7 +30,7 @@ const HeroSection = () => (
                   className="h-12 rounded-full pl-5 pr-3 text-base w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <Link href="#get-started">
-                    <span className="text-nowrap">Start Building</span>
+                    <span className="text-nowrap">Start Creating</span>
                     <ChevronRight className="ml-1" />
                   </Link>
                 </Button>
@@ -53,7 +53,7 @@ const HeroSection = () => (
         <div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
           <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
             <p className="max-w-2xl text-balance text-lg text-muted-foreground">
-              Not a Creator? <Link href="#lucky" className="text-[#D13E08] hover:text-[#ff5a2f] transition-colors">Click Here.</Link>
+              Looking to earn, not create? <Link href="#lucky" className="text-[#D13E08] hover:text-[#ff5a2f] transition-colors">Click here.</Link>
             </p>
           </div>
         </div>
