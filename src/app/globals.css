@@ -22,14 +22,13 @@
 }
 
 html {
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
 img,
