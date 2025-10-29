@@ -59,6 +59,11 @@ const HeroSection = () => (
         </div>
       </section>
     </main>
+    <footer className="bg-background py-2 px-6 lg:px-12 fixed bottom-0 left-0 right-0 text-center">
+      <p className="text-xs text-muted-foreground">
+        © {new Date().getFullYear()} Presbo AI. All rights reserved.
+      </p>
+    </footer>
   </>
 )
 
