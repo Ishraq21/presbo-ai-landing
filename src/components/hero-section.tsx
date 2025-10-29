@@ -53,7 +53,7 @@ const HeroSection = () => (
         <div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
           <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
             <p className="max-w-2xl text-balance text-lg text-muted-foreground">
-              Looking to earn, not create? <Link href="#lucky" className="text-[#D13E08] hover:text-[#ff5a2f] transition-colors">Click here.</Link>
+              Looking to earn, not create? <Link href="https://whop.com/thebuybox/thebuybox?a=mirzaishraq" target="_blank" className="text-[#D13E08] hover:text-[#ff5a2f] transition-colors">Click here.</Link>
             </p>
           </div>
         </div>
