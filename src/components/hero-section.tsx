@@ -55,20 +55,20 @@ const HeroSection = () => (
     <HeroHeader />
     <main className="overflow-x-hidden">
       <section>
-        <div className="py-24 md:pb-16 lg:pb-20 lg:pt-72">
+        <div className="py-16 md:pb-0 lg:pb-0 lg:pt-56">
           <div className="relative mx-auto flex max-w-7xl flex-col px-6 lg:block lg:px-12">
             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs text-white/70 backdrop-blur">
                 Presbo AI on Whop
               </div>
-              <h1 className="mt-8 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-16 xl:text-7xl">
+              <h1 className="mt-10 max-w-2xl text-balance text-5xl md:text-6xl lg:mt-20 xl:text-7xl">
                 Create 10x Faster with <span className="text-[#D13E08]">Presbo AI</span>
               </h1>
-              <p className="mt-8 max-w-2xl text-balance text-lg text-muted-foreground">
+              <p className="mt-10 max-w-2xl text-balance text-lg text-muted-foreground">
                 Supercharge your Whop community & boost engagement.
               </p>
 
-              <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
+              <div className="mt-16 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
                 <Button
                   asChild
                   size="lg"
@@ -105,7 +105,7 @@ const HeroSection = () => (
           </div>
         </div>
       </section>
-      <section className="bg-background pb-2">
+      <section className="bg-background pb-0 pt-8">
         <div className="group relative m-auto max-w-7xl px-6">
           <div className="flex flex-col items-center md:flex-row">
             <div className="md:max-w-44 md:border-r md:pr-6">

@@ -21,9 +21,15 @@
   --accent-foreground: 0 0% 100%;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  height: 100vh;
+  overflow: hidden;
 }
 
 img,
