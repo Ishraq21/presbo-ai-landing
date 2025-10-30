@@ -10,9 +10,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Presbo AI — Transform Text Into Stunning Video",
+  title: "Presbo AI - Create Stunning AI Powered Explainer Videos & Podcasts",
   description:
-    "Presbo AI is the fastest way to generate narrated video presentations from text using AI-powered storytelling."
+    "Presbo AI is the fastest way to generate narrated videos and podcasts from text using AI-powered storytelling.",
+  icons: {
+    icon: "/logos/presbo-ai-transparent.png"
+  }
 }
 
 type RootLayoutProps = {
