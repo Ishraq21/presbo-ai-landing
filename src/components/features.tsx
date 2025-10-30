@@ -13,35 +13,41 @@ export default function Features() {
                 </div>
 
                 <div className="relative mx-auto grid max-w-5xl gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                    <div className="relative rounded-2xl border border-orange-500/60 bg-gradient-to-br from-[#D13E08]/55 to-[#ff5a2f]/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-orange-500/80 hover:bg-gradient-to-br hover:from-[#D13E08]/65 hover:to-[#ff5a2f]/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-[#D13E08]/35 to-[#ff5a2f]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-orange-500/40 bg-gradient-to-br from-orange-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-orange-500/80 hover:from-orange-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#D13E08]/40 to-[#ff5a2f]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-[#D13E08]/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">AI Video & Podcast Generation</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Transform text into videos and podcasts with 80+ templates and AI voices.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Transform text into videos and podcasts with 80+ templates and AI voices.</p>
                     </div>
-                    <div className="relative rounded-2xl border border-purple-500/60 bg-gradient-to-br from-[#AA41D4]/55 to-[#9333EA]/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-purple-500/80 hover:bg-gradient-to-br hover:from-[#AA41D4]/65 hover:to-[#9333EA]/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-[#AA41D4]/35 to-[#9333EA]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-purple-500/40 bg-gradient-to-br from-purple-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-purple-500/80 hover:from-purple-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#AA41D4]/40 to-[#9333EA]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-[#AA41D4]/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">Multi-Format Content</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Create videos and podcasts from the same input with multiple modes.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Create videos and podcasts from the same input with multiple modes.</p>
                     </div>
-                    <div className="relative rounded-2xl border border-pink-500/60 bg-gradient-to-br from-[#B94086]/55 to-[#ec4899]/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-pink-500/80 hover:bg-gradient-to-br hover:from-[#B94086]/65 hover:to-[#ec4899]/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-[#B94086]/35 to-[#ec4899]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-pink-500/40 bg-gradient-to-br from-pink-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-pink-500/80 hover:from-pink-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#B94086]/40 to-[#ec4899]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-[#B94086]/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">100+ Viral Hooks</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Built-in library of proven hooks for attention-grabbing intros.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Built-in library of proven hooks for attention-grabbing intros.</p>
                     </div>
-                    <div className="relative rounded-2xl border border-blue-500/60 bg-gradient-to-br from-blue-500/55 to-cyan-500/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-blue-500/80 hover:bg-gradient-to-br hover:from-blue-500/65 hover:to-cyan-500/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/35 to-cyan-500/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-blue-500/40 bg-gradient-to-br from-blue-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-blue-500/80 hover:from-blue-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/40 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">Series Organization</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Organize content into structured series with playlists.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Organize content into structured series with playlists.</p>
                     </div>
-                    <div className="relative rounded-2xl border border-green-500/60 bg-gradient-to-br from-green-500/55 to-emerald-500/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-green-500/80 hover:bg-gradient-to-br hover:from-green-500/65 hover:to-emerald-500/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-green-500/35 to-emerald-500/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-green-500/40 bg-gradient-to-br from-green-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-green-500/80 hover:from-green-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-green-500/40 to-emerald-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-green-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">Analytics Dashboard</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Track views, engagement, and completion trends instantly.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Track views, engagement, and completion trends instantly.</p>
                     </div>
-                    <div className="relative rounded-2xl border border-indigo-500/60 bg-gradient-to-br from-indigo-500/55 to-purple-500/50 backdrop-blur-xl p-8 sm:p-10 space-y-4 hover:border-indigo-500/80 hover:bg-gradient-to-br hover:from-indigo-500/65 hover:to-purple-500/60 transition-all duration-300 overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/35 to-purple-500/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative rounded-2xl border border-indigo-500/40 bg-gradient-to-br from-indigo-950/20 via-transparent to-transparent backdrop-blur-2xl p-8 sm:p-10 space-y-4 hover:border-indigo-500/80 hover:from-indigo-950/40 transition-all duration-500 overflow-hidden group transform hover:scale-105 hover:-translate-y-1">
+                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/40 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl" />
+                        <div className="absolute -top-32 -right-32 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         <h3 className="text-lg sm:text-xl font-semibold relative z-10 text-white">Dual-View Experience</h3>
-                        <p className="text-sm sm:text-base text-white/90 relative z-10">Creator dashboard and free member experience for viewers.</p>
+                        <p className="text-sm sm:text-base text-white/80 relative z-10">Creator dashboard and free member experience for viewers.</p>
                     </div>
                 </div>
             </div>
