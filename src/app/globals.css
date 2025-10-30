@@ -9,6 +9,8 @@
   --muted-foreground: 220 15% 70%;
   --accent: 17 92% 43%;
   --accent-foreground: 220 20% 100%;
+  --card: 220 20% 4%;
+  --card-foreground: 220 20% 97%;
   --radius: 0.75rem;
 }
 
@@ -19,6 +21,8 @@
   --muted-foreground: 220 10% 35%;
   --accent: 17 92% 43%;
   --accent-foreground: 0 0% 100%;
+  --card: 220 20% 98%;
+  --card-foreground: 220 20% 10%;
 }
 
 html {

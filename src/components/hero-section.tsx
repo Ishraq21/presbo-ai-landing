@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { HeroHeader } from "@/components/header"
 import { Button } from "@/components/ui/button"
+import Features from "@/components/features"
 
 const HeroSection = () => (
   <>
@@ -49,19 +50,11 @@ const HeroSection = () => (
           </div>
         </div>
       </section>
-      <section className="bg-background py-8 md:py-12 lg:pb-0">
-        <div className="relative mx-auto flex max-w-7xl flex-col px-4 sm:px-6 lg:block lg:px-12">
-          <div className="mx-auto max-w-lg text-center lg:ml-0 lg:max-w-full lg:text-left">
-            {/* <p className="max-w-2xl text-balance text-base sm:text-lg text-muted-foreground">
-              Looking to earn, not create? <Link href="https://whop.com/thebuybox/thebuybox?a=mirzaishraq" target="_blank" className="text-[#D13E08] hover:text-[#ff5a2f] transition-colors">Click here.</Link>
-            </p> */}
-          </div>
-        </div>
-      </section>
+      <Features />
     </main>
-    <footer className="bg-background py-3 px-4 sm:px-6 lg:px-12 relative text-center border-t border-white/5">
+    <footer className="bg-background px-4 sm:px-6 lg:px-12 fixed bottom-0 left-0 right-0 text-center py-3">
       <p className="text-xs sm:text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Presbo AI. All rights reserved.
+        © 2025 Presbo AI. All rights reserved.
       </p>
     </footer>
   </>
