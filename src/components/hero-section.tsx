@@ -24,11 +24,11 @@ const HeroSection = () => (
                 Transform text, notes, and scripts into stunning explainer videos and podcasts for your <span className="text-[#D13E08]">Whop</span> community with AI.
               </p>
 
-              <div className="mt-10 sm:mt-12 max-w-2xl flex flex-col gap-4 sm:flex-row sm:items-center">
+              <div className="mt-10 sm:mt-12 w-fit sm:max-w-2xl mx-auto sm:mx-0 flex flex-col gap-4 sm:flex-row sm:items-center">
                 <Button
                   asChild
                   size="lg"
-                  className="h-12 rounded-full pl-5 pr-3 text-base w-full sm:w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
+                  className="h-12 rounded-full pl-5 pr-3 text-base w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <Link href="#get-started">
                     <span className="text-nowrap">Start Creating</span>
