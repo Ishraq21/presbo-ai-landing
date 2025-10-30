@@ -30,7 +30,7 @@ const HeroSection = () => (
                   size="lg"
                   className="h-12 rounded-full pl-5 pr-3 text-base w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
                 >
-                  <Link href="#get-started">
+                  <Link href="https://whop.com/apps/app_jRTbCpr815MbzA/">
                     <span className="text-nowrap">Start Creating</span>
                     <ChevronRight className="ml-1" />
                   </Link>
