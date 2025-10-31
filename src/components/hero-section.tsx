@@ -38,16 +38,6 @@ const HeroSection = () => (
               </div>
             </div>
           </div>
-          <div className="hidden sm:block aspect-[2/3] absolute inset-1 -z-10 overflow-hidden rounded-2xl sm:rounded-3xl border border-white/10 lg:aspect-video lg:rounded-[3rem]">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="size-full object-cover opacity-50 invert dark:opacity-35 dark:invert-0 dark:lg:opacity-75"
-              src="https://ik.imagekit.io/lrigu76hy/tailark/dna-video.mp4?updatedAt=1745736251477"
-            />
-          </div>
         </div>
       </section>
       <Features />
