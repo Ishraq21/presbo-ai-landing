@@ -6,9 +6,9 @@ export default function Features() {
             <div className="mx-auto max-w-7xl space-y-12 px-4 sm:px-6 lg:px-12 md:space-y-20">
                 <div className="relative z-10 mx-auto max-w-3xl space-y-6 text-center md:space-y-8">
                     <h2 className="text-balance text-3xl font-normal sm:text-4xl md:text-5xl">Why Choose <span className="text-[#D13E08]">Presbo AI</span></h2>
-                    <p className="text-base sm:text-lg text-muted-foreground whitespace-nowrap">Powered by cutting-edge AI technology to help you create stunning content faster than ever before.</p>
+                    <p className="text-base sm:text-lg text-muted-foreground whitespace-nowrap">Create stunning videos in seconds. No credit card, no subscription, no strings attached.</p>
                     <Link href="https://whop.com/apps/app_jRTbCpr815MbzA/" className="text-white hover:text-[#D13E08] transition-colors duration-200 inline-block text-sm sm:text-base">
-                        Request a Demo &gt;
+                        Try for Free &gt;
                     </Link>
                 </div>
 
