@@ -25,13 +25,23 @@ const HeroSection = () => (
               </p>
 
               <div className="mt-10 sm:mt-12 w-fit sm:max-w-2xl mx-auto sm:mx-0 flex flex-col gap-4 sm:flex-row sm:items-center">
-                <Button
+                {/* <Button
                   asChild
                   size="lg"
                   className="h-12 rounded-full pl-5 pr-3 text-base w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
                 >
                   <Link href="https://whop.com/apps/app_jRTbCpr815MbzA/">
                     <span className="text-nowrap">Start Creating</span>
+                    <ChevronRight className="ml-1" />
+                  </Link>
+                </Button> */}
+                <Button
+                  asChild
+                  size="lg"
+                  className="h-12 rounded-full pl-5 pr-3 text-base w-fit bg-gradient-to-r from-[#D13E08] to-[#ff5a2f] hover:from-[#b83206] hover:to-[#e74b26] text-white shadow-lg hover:shadow-xl transition-all duration-200"
+                >
+                  <Link href="https://form.typeform.com/to/h16ar2HG">
+                    <span className="text-nowrap">Join Waitlist</span>
                     <ChevronRight className="ml-1" />
                   </Link>
                 </Button>

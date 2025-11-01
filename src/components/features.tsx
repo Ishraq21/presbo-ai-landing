@@ -7,8 +7,11 @@ export default function Features() {
                 <div className="relative z-10 mx-auto max-w-3xl space-y-6 text-center md:space-y-8">
                     <h2 className="text-balance text-3xl font-normal sm:text-4xl md:text-5xl">Why Choose <span className="text-[#D13E08]">Presbo AI</span></h2>
                     <p className="text-base sm:text-lg text-muted-foreground whitespace-nowrap">Create stunning videos in seconds. No credit card, no subscription, no strings attached.</p>
-                    <Link href="https://whop.com/apps/app_jRTbCpr815MbzA/" className="text-white hover:text-[#D13E08] transition-colors duration-200 inline-block text-sm sm:text-base">
+                    {/* <Link href="https://whop.com/apps/app_jRTbCpr815MbzA/" className="text-white hover:text-[#D13E08] transition-colors duration-200 inline-block text-sm sm:text-base">
                         Try for Free &gt;
+                    </Link> */}
+                    <Link href="https://form.typeform.com/to/h16ar2HG" className="text-white hover:text-[#D13E08] transition-colors duration-200 inline-block text-sm sm:text-base">
+                        Join Waitlist &gt;
                     </Link>
                 </div>
 
